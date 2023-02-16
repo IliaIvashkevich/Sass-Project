@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+    .container {
+      display: block;
+      width: 500px;
+      text-align: center;
+     
+    }
+    
+    li a, .logo{
+      display: none;
+    }
+    
+    .showcase-container img{
+      display: none;
+    }
+    
+    .showcase-container #div{
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .social-buttons {
+      justify-content: center;
+    }
+  
+}
